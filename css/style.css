@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'moderatbold';
+    src: url('./fonts/webfontkit/moderat-bold-webfont.woff2') format('woff2'),
+         url('./fonts/webfontkit/moderat-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'moderatregular';
+    src: url('./fonts/webfontkit/moderat-regular-webfont.woff2') format('woff2'),
+         url('./fonts/webfontkit/moderat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+  font-family: 'moderatregular';
+}
+
+header .navbar {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  widht: 100%;
+  z-index: 10000;
+  padding: 0px 0px 0px 0px;
+}
+
+
+header .navbar .navbar-brand{
+  font-size: 26px;
+  padding-left: 28px;
+}
+
+header a {
+  font-size: 26px;
+  color: #2A2A2B;
+}
+
+
+.row {
+  width: 100%;
+  margin:0;
+  height: 500px;
+}
+
+.segundo {
+  background-color: yellow;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.margenblanco {
+  background-color: #fff;
+}
+
+.proyectohome {
+
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+li {
+  font-size: 24px;
+}
+
+
+#about2 {
+  background-color: #1A1A1A;
+  color: #ffffff;
+}
+
+#introabout {
+  padding-bottom:0;
+  padding-top: 300px;
+}
+
+#workinglinks {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+li#workinglinks {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.titulo {
+  padding-bottom: 20px;
+  text-decoration: underline;
+  color: #99999F;
+}
+
+h3 {
+  font-size: 30px;
+  line-height: 38px;
+}
