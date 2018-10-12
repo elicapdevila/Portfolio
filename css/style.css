@@ -16,6 +16,17 @@
 }
 
 
+a {
+  color: #2A2A2B;
+}
+
+a:hover {
+  color: #2A2A2B;
+}
+
+h1 {
+  font-size: 5rem;
+}
 
 body {
   font-family: 'moderatregular';
@@ -68,6 +79,7 @@ ul {
   list-style: none;
   padding-left: 0;
 }
+
 li.nav-item{
   font-size: 24px;
 }
@@ -90,7 +102,7 @@ li.nav-item{
 
 }
 
-#visible {
+/* #visible {
   opacity: 0;
 
 }
@@ -102,7 +114,6 @@ li.nav-item{
 .works-wrapper {
   margin-top: 100px;
   border: 2px solid red;
-  /* height: 200px; */
 }
 
 
@@ -117,13 +128,92 @@ li.nav-item{
 }
 
 .image-wrapper {
-/* height: 100px; */
+} */
+
+#contenidor {
+  position: relative;
+  height: 1200px;
+  width: 100%;
+  margin-top: 50px;
 }
+
+li.opcion1, li.opcion2, li.opcion3, li.opcion4 {
+  z-index: 1;
+}
+
+.opcion1 a{
+  position: absolute;
+  z-index: 10;
+  top: 100px;
+}
+
+.opcion2 a{
+  position: absolute;
+  z-index: 11;
+  top: 250px;
+}
+
+.opcion3 a{
+  position: absolute;
+  z-index: 12;
+  top: 400px;
+}
+
+.opcion4 a{
+  position: absolute;
+  z-index: 13;
+  top: 550px;
+}
+
+span.foto1, span.foto2, span.foto3, span.foto4 {
+  position: absolute;
+  z-index: 0;
+}
+
+span.foto1 {
+  display: none;
+  top: 50px;
+  left: 250px;
+}
+
+span.foto2 {
+  display: none;
+  top: 100px;
+  left: 300px;
+}
+
+span.foto3 {
+  display: none;
+  top: 250px;
+  left: 400px;
+}
+
+span.foto4 {
+  display: none;
+  top: 400px;
+  left: 350px;
+}
+
+li:hover {
+  z-index: 0;
+}
+
+li:hover a{
+  z-index: 0;
+}
+
+li:hover span {
+  display: block;
+  z-index: 0;
+}
+
 
 .workingacross {
   padding: 0;
   padding-bottom: 100px;
 }
+
+
 
 
 .titulo {
