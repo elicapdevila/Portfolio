@@ -16,6 +16,7 @@
 }
 
 
+
 body {
   font-family: 'moderatregular';
 }
@@ -45,7 +46,6 @@ header a {
 .row {
   width: 100%;
   margin:0;
-  height: 500px;
 }
 
 .segundo {
@@ -68,7 +68,7 @@ ul {
   list-style: none;
   padding-left: 0;
 }
-li {
+li.nav-item{
   font-size: 24px;
 }
 
@@ -78,20 +78,23 @@ li {
   color: #ffffff;
 }
 
-#introabout {
-  padding-bottom:0;
-  padding-top: 300px;
+#intro {
+  padding-top: 200px;
+  padding-bottom: 100px;
 }
 
 #workinglinks {
   font-size: 20px;
   line-height: 28px;
+  padding-left:0;
+
 }
 
-li#workinglinks {
-  font-size: 20px;
-  line-height: 28px;
+.workingacross {
+  padding: 0;
+  padding-bottom: 100px;
 }
+
 
 .titulo {
   padding-bottom: 20px;
@@ -99,7 +102,20 @@ li#workinglinks {
   color: #99999F;
 }
 
-h3 {
-  font-size: 30px;
-  line-height: 38px;
+.works-wrapper {
+  height: 400px;
 }
+
+h1 {
+  padding-top: 100px;
+}
+
+h3 {
+  font-size: 1.875rem;
+  line-height: 2.375rem;
+}
+
+@media (max-width: 576px) {
+  h3 {
+    font-size: 1.625rem;
+  }}
