@@ -16,6 +16,7 @@
 }
 
 
+
 a {
   color: #2A2A2B;
 }
@@ -24,9 +25,6 @@ a:hover {
   color: #2A2A2B;
 }
 
-h1 {
-  font-size: 5rem;
-}
 
 body {
   font-family: 'moderatregular';
@@ -56,6 +54,11 @@ header a {
 
 h1 {
   font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+#works h2 {
+  text-align: center;
 }
 
 .row {
@@ -100,7 +103,6 @@ li.nav-item{
 
 .primertrabajo .overlay {
   position: absolute;
-  left:5%;
   top: 0;
   width:100%;
   height:100%;
@@ -116,13 +118,23 @@ li.nav-item{
 }
 
 #about2 {
-  background-color: #1A1A1A;
+  /* background-color: #1A1A1A; */
+  /* background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
+  background-image: linear-gradient(to top, #6a11cb 0%, #2575fc 100%);
   color: #ffffff;
 }
 
 #intro {
-  padding-top: 200px;
+  padding-top: 100px;
   padding-bottom: 100px;
+}
+
+#intro h3{
+  padding-top: 50px;
+}
+
+#introabout img{
+  padding-left: 16px;
 }
 
 #workinglinks {
@@ -132,7 +144,9 @@ li.nav-item{
 
 }
 
-
+#workingwith {
+  padding-bottom: 100px;
+}
 
 
 
@@ -153,10 +167,12 @@ ul {
 .titulo {
   padding-bottom: 20px;
   text-decoration: underline;
-  color: #99999F;
+  color: #fff;
 }
 
-
+#introabout a {
+  color: #fff;
+}
 .mislinks a {
   color: #ffffff;
 }
@@ -175,14 +191,20 @@ h2 {
   background-color: #1A1A1A;
   color: #ffffff;
   width: 100%;
+  padding: 100px;
   text-align: center;
+
 }
 
 .volvertop a{
   display: block;
   color: #fff;
-  padding: 100px;
   background-color: #1A1A1A;
+
+}
+
+.volvertop img {
+  margin-right: 10px;
 
 }
 
